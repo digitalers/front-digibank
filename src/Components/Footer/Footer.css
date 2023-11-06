@@ -1,4 +1,44 @@
-.footer{
+
+
+.footerDiv{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 2em;
+}
+
+.qr{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 15%;
+
+}
+
+.redes_lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 15%;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+.infoFinanc{
+    display: flex;
+    gap: 25%;
+    margin:  5% 15%;
+
+}
+.informacionImp{
+    list-style: none;
+    color: grey;
+}
+
+
+.footerP{
+    display: flex;
+    justify-content: center;
+
 }

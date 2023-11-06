@@ -56,3 +56,6 @@ background: radial-gradient(
     border-radius: 10px;
     background: #f0f8ff;
 }
+Link:hover,:active, :visited{
+color: #ffffff;
+}
