@@ -19,6 +19,7 @@ function ListaClientes() {
   }, []);
 
   return (
+  
     <div className="table-container">
       <h2 className='lista-header'>Lista de Clientes</h2>
       <table className='table-clientes'>
