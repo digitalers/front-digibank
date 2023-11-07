@@ -12,6 +12,13 @@
     border: 1px solid #ccc;
     padding: 8px;
     font-family: 'Quicksand';
+    text-align: center;
+  }
+  .table-row:hover {
+    background-color: #44749d;
+    color: white;
+    
+
   }
   
   .table-headers {

@@ -33,7 +33,7 @@ function ListaClientes() {
         </thead>
         <tbody>
           {clientes.map((cliente) => (
-            <tr key={cliente.id}>
+            <tr className="table-row" key={cliente.id}>
               <td className='table-data'>{cliente.nombre}</td>
               <td className='table-data'>{cliente.apellido}</td>
               <td className='table-data'>{cliente.email}</td>
