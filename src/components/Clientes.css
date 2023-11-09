@@ -1,0 +1,42 @@
+
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-clientes {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-headers,.table-data {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-family: 'Quicksand';
+    text-align: center;
+  }
+  .table-row:hover {
+    background-color: #44749d;
+    color: white;
+    
+
+  }
+  
+  .table-headers {
+    background-color: #f2f2f2;
+    font-weight: bold;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .lista-header {
+    background-color: #44749d;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    font-family: 'Quicksand';
+
+
+}
+

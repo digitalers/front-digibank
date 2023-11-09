@@ -4,6 +4,7 @@ import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CrearCliente from './Components/CrearCliente/CrearCliente';
+import ListaClientes from './components/Clientes';
 
 function App() {
   return (
@@ -16,12 +17,15 @@ function App() {
 
         {/*<Route path='/listado' element={<Listado/>}/>*/}
 
+        <div className="App">
+        <ListaClientes />
+      </div>
       </Routes>
       
       <Footer/>
       </BrowserRouter>
     </div>
-  );
+
 }
 
 export default App;
