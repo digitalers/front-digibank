@@ -4,7 +4,7 @@ import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import CrearCliente from './Components/CrearCliente/CrearCliente';
-import ListaClientes from './components/Clientes';
+import ListaClientes from './Components/Clientes';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
       <Footer/>
       </BrowserRouter>
     </div>
-
+  )
 }
 
 export default App;
