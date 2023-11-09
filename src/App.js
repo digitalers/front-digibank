@@ -15,11 +15,9 @@ function App() {
         <Route path='/' element={<Main/>}/>
         <Route path='/cliente' element={<CrearCliente/>}/>
 
-        {/*<Route path='/listado' element={<Listado/>}/>*/}
+        <Route path='/listado' element={<ListaClientes/>}/>
 
-        <div className="App">
-        <ListaClientes />
-      </div>
+
       </Routes>
       
       <Footer/>
