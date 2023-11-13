@@ -5,7 +5,7 @@ import ListaClientes from './components/Clientes';
 function App() {
   return (
     <div className="App">
-     <ListaClientes />
+    <ListaClientes />
       </div>
   );
 }
